@@ -10,9 +10,13 @@
 
 # Setup
 
+All 3 devices use I2C for communication:
+
 - Accelerometer: LIS3DH - available on: https://github.com/dotnet/iot/tree/main/src/devices/Lis3Dh (hopefully soon on NuGet)
 - Weight: DFRobot KIT0176 (I2C weight sensor kit) - still in PR: https://github.com/dotnet/iot/pull/1956 (hopefully soon on NuGet)
 - FT4222 - allows me to use I2C on my Windows machine - https://github.com/dotnet/iot/tree/main/src/devices/Ft4222 - already available in Iot.Device.Bindings NuGet package
+
+the last piece is a tiny PCB which connects I2C together - it doesn't have any active elements (last picture).
 
 # Pictures of the setup
 
